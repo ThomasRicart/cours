@@ -1,0 +1,40 @@
+site_name: Mes Cours
+site_url: https://thomasricart.github.io/cours/
+
+theme:
+  name: material
+  language: fr
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - md_in_html
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Accueil: index.md
+  - Chapitre 1:
+    - Cours: chapitre1/cours.md
+    - Exercices: chapitre1/exercices.md
+  - Ressources:
+    - Scripts Python: ressources/scripts.md
