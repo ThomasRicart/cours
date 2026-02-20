@@ -7,7 +7,7 @@
 ## TP
 
 CIEL1_TP_fonctions_16_fev_26.pdf
-[chemin d'accès par le fichier vers un autre document](./TP/CIEL1_TP_fonctions_16_fev_26.pdf)
+[TP du Lundi 16/02/2026](./TP/CIEL1_TP_fonctions_16_fev_26.pdf)
 
 
 <ul>
